@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CVV - Modern CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Ass3.css">
+</head>
+<body>
+
+<!-- ===== Video Background Section ===== -->
+<header class="video-header">
+    <video autoplay muted loop>
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <div class="header-content text-center">
+        <h1 class="fw-bold">Shaikh Atifa</h1>
+        <p class="lead">UI / UX Designer & Frontend Developer</p>
+        <a href="#cv" class="btn btn-outline-light mt-3 scroll-btn">View CV</a>
+    </div>
+</header>
+
+<!-- ===== CV Content ===== -->
+<section id="cv" class="container my-5">
+    <div class="row shadow-lg cv-wrapper">
+
+        <!-- Left Column -->
+        <aside class="col-lg-4 col-md-5 bg-dark text-white p-4">
+            <div class="text-center">
+                <img src="profile.jpg" class="profile-img mb-3">
+                <h4>Shaikh Atifa</h4>
+                <small>Frontend Developer</small>
+            </div>
+
+            <hr>
+
+            <h5>Contact</h5>
+            <ul class="list-unstyled">
+                <li>📧 atifa@email.com</li>
+                <li>📞 +91 9876543210</li>
+                <li>📍 India</li>
+            </ul>
+
+            <hr>
+
+            <h5>Skills</h5>
+            <ul>
+                <li>HTML5 / CSS3</li>
+                <li>Bootstrap</li>
+                <li>JavaScript / jQuery</li>
+                <li>React Basics</li>
+            </ul>
+        </aside>
+
+        <!-- Right Column -->
+        <main class="col-lg-8 col-md-7 p-4">
+            <section class="mb-4">
+                <h3 class="section-title">Profile</h3>
+                <p>
+                    Creative and detail-oriented frontend developer with experience
+                    in building responsive and modern web interfaces.
+                </p>
+            </section>
+
+            <section class="mb-4">
+                <h3 class="section-title">Experience</h3>
+                <h6>Frontend Developer</h6>
+                <small class="text-muted">2022 - Present</small>
+                <p>Designed and developed responsive web applications using
+                   Bootstrap and JavaScript.</p>
+            </section>
+
+            <section class="mb-4">
+                <h3 class="section-title">Education</h3>
+                <h6>Bachelor of Computer Science</h6>
+                <small class="text-muted">2018 - 2022</small>
+            </section>
+
+            <section>
+                <h3 class="section-title">Projects</h3>
+                <ul>
+                    <li>Portfolio Website</li>
+                    <li>Admin Dashboard UI</li>
+                    <li>Landing Page Designs</li>
+                </ul>
+            </section>
+        </main>
+
+    </div>
+</section>
+
+<!-- Bootstrap & jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
